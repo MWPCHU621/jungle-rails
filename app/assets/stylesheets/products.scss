@@ -60,6 +60,18 @@ main section.categories-show {
         }
       }
 
+      aside.sold-out-badge {
+        color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: pink;
+        border-radius: 4px 0 15px 0;
+        padding: 15px;
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+
     }
   }
 }
