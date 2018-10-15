@@ -46,6 +46,7 @@ group :development, :test do
   gem 'quiet_assets'
   gem 'dotenv-rails'
   gem 'rspec-rails', '~> 3.5'
+  gem 'shoulda-matchers', '4.0.0.rc1'
   # ...
 end
 
