@@ -132,5 +132,30 @@ cat3.products.create!({
   price: 2_483.75
 })
 
+User.destroy_all
+
+puts "recreating users......."
+
+User.create!({
+  first_name: "patrick",
+  last_name: "chu",
+  email: "123@gmail.com",
+  password: "123",
+})
+
+
+
+
+Review.destroy_all
+
+puts "recreating reviews....."
+
+Review.create!({
+  user_id: 1,
+  product_id: 1,
+  description: "good stuff",
+  rating: 5,
+})
+
 
 puts "DONE!"
